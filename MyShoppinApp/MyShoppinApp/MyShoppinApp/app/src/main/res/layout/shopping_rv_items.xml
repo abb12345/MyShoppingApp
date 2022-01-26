@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardCornerRadius="5dp"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/black_shade_1"
+    app:cardElevation="4dp">
+
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+
+
+
+
+    <TextView
+
+        android:id="@+id/idAddTVItemTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="30dp"
+
+        android:padding="4dp"
+        android:text="Shopping Title"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/idAddTVItemPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idAddTVItemTitle"
+        android:layout_marginStart="4dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:padding="4dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="Price"
+        android:textColor="@color/black" />
+
+    <CheckBox
+        android:id="@+id/IdCbPurchased"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idAddTVItemPrice"
+        android:layout_marginTop="1dp"
+        android:backgroundTint="@color/black"
+        android:padding="4dp"
+        android:scaleX="0.7"
+        android:scaleY="0.7"
+        android:text="Is Purchased"
+        android:textStyle="bold" />
+
+    <Button
+        android:visibility="invisible"
+        android:id="@+id/idBtnDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="4dp"
+        android:layout_alignParentBottom="true"
+        android:backgroundTint="@color/Btn_background"
+        android:text="View Item Details"
+        android:textAllCaps="false"
+        android:textColor="@color/black" /><![CDATA[
+
+
+    android:textSize="20sp" />
+
+
+
+
+
+
+
+    ]]>
+
+    <Button
+        android:id="@+id/idTvDeleteItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginRight="-15dp"
+        android:layout_toLeftOf="@id/idTvDeleteItem"
+        android:backgroundTint="@color/Btn_background"
+        android:padding="4dp"
+        android:text="Delete"
+        app:tint="@color/black" />
+
+    <ImageView
+        android:id="@+id/IdImageIcon"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="55dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginRight="1dp"
+        android:src="@drawable/ic_launcher_background" />
+
+    <Button
+        android:id="@+id/DetailsBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="-15dp"
+        android:layout_marginRight="-15dp"
+        android:backgroundTint="@color/Btn_background"
+        android:onClick="OnDetialsClick"
+        android:padding="4dp"
+        android:text="View Details"
+        app:tint="@color/black" />
+
+
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>

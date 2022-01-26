@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MyShoppinApp/MyShoppinApp/app/src/main/res/layout/activity_add_shopping_items.xml" value="0.15806159420289856" />
+        <entry key="..\:/MyShoppinApp/MyShoppinApp/app/src/main/res/layout/activity_main.xml" value="0.15806159420289856" />
+        <entry key="..\:/MyShoppinApp/MyShoppinApp/app/src/main/res/layout/activity_shopping_details.xml" value="0.1480978260869565" />
+        <entry key="..\:/MyShoppinApp/MyShoppinApp/app/src/main/res/layout/activity_splash.xml" value="0.17074275362318841" />
+        <entry key="..\:/MyShoppinApp/MyShoppinApp/app/src/main/res/layout/shopping_rv_items.xml" value="0.15806159420289856" />
+        <entry key="..\:/MyShoppinApp/MyShoppinApp/app/src/main/res/menu/actionbar1.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/M. Shoaib/Desktop/21st Nov 2021 kotlin Mobile App/MyShoppinApp/MyShoppinApp/MyShoppinApp/app/src/main/res/layout/activity_splash.xml" value="0.22" />
+      </map>
+    </option>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK" />
+</project>

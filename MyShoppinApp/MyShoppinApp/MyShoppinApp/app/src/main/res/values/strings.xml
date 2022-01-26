@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My Shopping App</string>
+    <string name="selected_item">Selected item:</string>
+    <string-array name="Languages">
+        <item>Food</item>
+        <item>Clothing</item>
+        <item>Electronics</item>
+    </string-array>
+</resources>

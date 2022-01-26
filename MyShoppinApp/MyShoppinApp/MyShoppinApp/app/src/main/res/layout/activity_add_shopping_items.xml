@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_shade_1"
+    tools:context=".AddShoppingItemsActivity"
+
+    >
+
+    <!--edit text for note title-->
+    <EditText
+        android:id="@+id/idItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Enter ItemTitle"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <Spinner
+        android:id="@+id/category_spinner"
+        android:layout_below="@id/idItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp"
+        android:layout_margin="4dp"
+        android:textColorHint="@color/black"
+
+        />
+
+    <!--edit text for note description-->
+    <EditText
+        android:id="@+id/idItemDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/category_spinner"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:hint="Item Description"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+    <EditText
+        android:id="@+id/idItemPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idItemDesc"
+        android:layout_margin="10dp"
+        android:background="@color/black_shade_1"
+        android:hint="Estimated Price"
+        android:textColor="@color/black"
+        android:textColorHint="@color/black" />
+
+
+
+
+
+    <CheckBox android:id="@+id/checkbox_isBought"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Already Purchased"
+        android:layout_below="@id/idItemPrice"
+        android:onClick="onCheckboxClicked"
+        />
+
+    <!--button for saving and updating a note-->
+    <Button
+        android:id="@+id/idBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:text="Add Item"
+        android:textAllCaps="false"
+        android:backgroundTint="@color/Btn_background"
+        android:textColor="@color/black" />
+
+</RelativeLayout>
